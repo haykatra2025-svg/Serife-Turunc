@@ -1,1 +1,0 @@
-# Serife-Turunc
