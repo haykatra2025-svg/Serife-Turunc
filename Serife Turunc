@@ -1,1 +1,34 @@
-# Serife-Turunc
+    <div class="footer-bottom"><span>© <span id="year">2026</span> Serıfe Turunc</span><span>Praticienne en drainage lymphatique brésilien</span></div>
+  </div>
+</footer>
+
+<a class="whatsapp" id="whatsappLink" href="https://wa.me/33627841701" target="_blank" rel="noopener" aria-label="Contacter Serıfe Turunc sur WhatsApp">WhatsApp · Contact</a>
+<script>
+const menuBtn = document.getElementById('menuBtn');
+const navlinks = document.getElementById('navlinks');
+menuBtn.addEventListener('click', () => {
+  const opened = navlinks.classList.toggle('open');
+  menuBtn.setAttribute('aria-expanded', String(opened));
+});
+navlinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+  navlinks.classList.remove('open');
+  menuBtn.setAttribute('aria-expanded', 'false');
+}));
+document.getElementById('year').textContent = new Date().getFullYear();
+
+document.getElementById('bookingForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const data = new FormData(this);
+  const subject = encodeURIComponent('Demande de rendez-vous - Serıfe Turunc');
+  const body = encodeURIComponent(
+    'Nom : ' + data.get('nom') + '\n' +
+    'E-mail : ' + data.get('email') + '\n' +
+    'Prestation : ' + data.get('prestation') + '\n' +
+    'Date souhaitée : ' + (data.get('date') || 'Non précisée') + '\n\n' +
+    'Message :\n' + data.get('message')
+  );
+  window.location.href = 'mailto:koder520777@gmail.com?subject=' + subject + '&body=' + body;
+});
+</script>
+</body>
+</html>
