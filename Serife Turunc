@@ -1,3 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f5ef">
+<meta name="description" content="Serıfe Turunc, praticienne en drainage lymphatique brésilien. Une approche bien-être personnalisée pour favoriser la sensation de légèreté et de détente.">
+<title>Serıfe Turunc | Drainage lymphatique brésilien</title>
+<style>
+:root{--cream:#f8f5ef;--white:#fffefa;--green:#354b3c;--sage:#e5ebe1;--gold:#b49a69;--text:#393c35;--muted:#74776d}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--cream);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.7}img{max-width:100%;display:block}a{color:inherit}.container{width:min(1120px,90%);margin:auto}.serif{font-family:Georgia,"Times New Roman",serif}.eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
+.topbar{padding:8px 15px;background:var(--green);color:white;text-align:center;font-size:11px;letter-spacing:1px}
+header{position:sticky;top:0;z-index:10;background:rgba(248,245,239,.97);border-bottom:1px solid #e7e1d6}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{text-decoration:none;line-height:1.25}.brand strong{display:block;font-family:Georgia,serif;font-size:23px;font-weight:normal;letter-spacing:1px}.brand span{display:block;font-size:9px;letter-spacing:3px;text-transform:uppercase;margin-top:5px}.navlinks{display:flex;align-items:center;gap:23px}.navlinks a{font-size:12px;text-decoration:none}.navlinks a:hover{color:var(--gold)}.nav-toggle{display:none;border:1px solid #d9d3c7;background:transparent;color:var(--green);padding:8px 12px;cursor:pointer}
+.btn{display:inline-block;padding:13px 22px;background:var(--green);color:white;text-decoration:none;border:1px solid var(--green);font-size:12px;letter-spacing:1px;cursor:pointer}.btn:hover{background:#26392c}.btn-light{background:transparent;color:var(--green)}.btn-light:hover{color:white}
+.hero{min-height:550px;display:grid;grid-template-columns:1fr 1fr;background:var(--sage)}.hero-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:60px max(5vw,25px)}.hero h1{margin:17px 0;max-width:560px;color:var(--green);font:normal clamp(42px,5.3vw,68px)/1.08 Georgia,serif}.hero h1 em{color:#9a8357}.hero-copy>p:not(.eyebrow){max-width:420px;color:#5e675d;font-size:15px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.hero-image{min-height:400px;overflow:hidden}.hero-image img{width:100%;height:100%;object-fit:cover}.trust{display:flex;justify-content:center;flex-wrap:wrap;gap:14px 35px;padding:20px;background:var(--white);color:var(--green);font-size:11px;letter-spacing:.5px}.trust span:before{content:"✦";color:var(--gold);margin-right:8px}
+section{padding:78px 0}.section-heading{text-align:center;max-width:660px;margin:0 auto 40px}.section-heading h2{font:normal clamp(32px,4vw,46px)/1.2 Georgia,serif;color:var(--green);margin:12px 0}.section-heading p{color:var(--muted);font-size:14px}.about-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:60px}.about-photo{position:relative;padding:0 18px 18px 0}.about-photo img{width:100%;height:460px;object-fit:cover}.about-copy h2{color:var(--green);font:normal 42px/1.15 Georgia,serif;margin:15px 0 22px}.about-copy p{color:var(--muted);font-size:14px}.signature{font:italic 25px Georgia,serif;color:var(--green);margin:25px 0}
+.services{background:var(--white)}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.service-card{background:var(--cream);border:1px solid #ece6db;padding-bottom:24px}.service-card img{width:100%;height:210px;object-fit:cover}.service-card .inner{padding:20px 20px 0}.number{color:var(--gold);font-size:11px;letter-spacing:2px}.service-card h3{font:normal 23px Georgia,serif;color:var(--green);margin:8px 0}.service-card p{color:var(--muted);font-size:13px}
+.quote-band{background:var(--green);color:white;text-align:center;padding:65px 20px}.quote-band .mark{font:55px Georgia,serif;color:#d2bd91;line-height:1}.quote-band blockquote{max-width:720px;margin:15px auto;font:normal clamp(25px,4vw,38px)/1.35 Georgia,serif}.quote-band p{color:#d8dfd5;font-size:12px}
+.gallery-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:220px 220px;gap:13px}.gallery-grid img{width:100%;height:100%;object-fit:cover}.gallery-grid img:first-child{grid-row:span 2}
+.booking{background:#e8ece3}.booking-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:start}.booking-copy h2{color:var(--green);font:normal 42px/1.15 Georgia,serif}.booking-copy p{color:#647064;font-size:14px}.contact-line{display:flex;gap:13px;margin-top:22px;align-items:flex-start}.contact-line b{display:block;color:var(--green);font-size:13px}.contact-line span{color:var(--muted);font-size:13px}.form-card{background:var(--white);padding:30px;box-shadow:0 8px 35px #354b3c0f}.form-card h3{font:normal 28px Georgia,serif;color:var(--green);margin-top:0}label{display:block;font-size:12px;margin-bottom:6px;color:var(--green)}input,textarea,select{display:block;width:100%;border:1px solid #deded3;background:white;padding:12px;border-radius:0;color:var(--text);margin-bottom:16px}textarea{min-height:100px;resize:vertical}.form-card .btn{width:100%}.form-note{font-size:11px;color:var(--muted)}
+footer{background:#25372b;color:white;padding:42px 0 20px}.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:30px;padding-bottom:28px}footer .brand strong{font-size:25px}footer p,footer a{color:#d1d8ce;font-size:12px}footer a{text-decoration:none}footer h4{color:#d6c29b;font-weight:normal;letter-spacing:1px}.footer-bottom{border-top:1px solid #526253;padding-top:17px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#d1d8ce;font-size:11px}
+.whatsapp{position:fixed;right:15px;bottom:15px;z-index:20;padding:12px 17px;border-radius:30px;background:#287b4d;color:white;text-decoration:none;font-size:12px;box-shadow:0 4px 20px #0002}
+@media(max-width:760px){.nav{min-height:68px}.brand strong{font-size:20px}.nav-toggle{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:100%;background:var(--cream);padding:22px 5%;border-bottom:1px solid #ddd5c7;flex-direction:column;align-items:stretch;gap:18px}.navlinks.open{display:flex}.navlinks a{padding:4px 0}.hero{grid-template-columns:1fr}.hero-copy{padding:50px 7%}.hero h1{font-size:46px}.hero-image{height:320px;min-height:320px}.trust{gap:12px 18px}section{padding:58px 0}.about-grid,.booking-grid{grid-template-columns:1fr;gap:30px}.about-photo img{height:350px}.about-copy h2,.booking-copy h2{font-size:36px}.service-grid{grid-template-columns:1fr;gap:18px}.service-card img{height:240px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:220px 160px 160px}.gallery-grid img:first-child{grid-row:auto;grid-column:span 2}.form-card{padding:22px 18px}.footer-grid{grid-template-columns:1fr;gap:12px}.whatsapp{right:10px;bottom:10px}}
+</style>
+</head>
+<body>
+<div class="topbar">DRAINAGE LYMPHATIQUE BRÉSILIEN · SERVICE À DOMICILE · ÎLE-DE-FRANCE</div>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#accueil"><strong>Serıfe Turunc</strong><span>Praticienne en drainage lymphatique brésilien</span></a>
+    <button class="nav-toggle" id="menuBtn" aria-label="Ouvrir le menu" aria-expanded="false">☰ Menu</button>
+    <nav class="navlinks" id="navlinks">
+      <a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#prestations">Le soin</a><a href="#infos-pratiques">Tarifs & zone</a><a href="#bienfaits">Bienfaits</a><a href="#galerie">Galerie</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="accueil" style="padding:0">
+  <div class="hero-copy">
+    <p class="eyebrow">Drainage lymphatique brésilien</p>
+    <h1>Retrouvez une sensation de <em>légèreté.</em></h1>
+    <p>Un soin manuel réalisé avec attention, dans une atmosphère élégante et apaisante, pour prendre soin de vous et vous accorder un véritable moment de bien-être.</p>
+    <div class="actions"><a class="btn" href="#contact">DEMANDER UN RENDEZ-VOUS</a><a class="btn btn-light" href="#bienfaits">DÉCOUVRIR LES BIENFAITS</a></div>
+  </div>
+  <div class="hero-image"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85" alt="Ambiance relaxante d'un espace de bien-être"></div>
+</section>
+<div class="trust"><span>Approche personnalisée</span><span>Gestes manuels adaptés</span><span>Confort et bien-être</span></div>
+
+<section id="apropos">
+  <div class="container about-grid">
+    <div class="about-photo"><img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=85" alt="Espace de massage aux tons naturels" loading="lazy"></div>
+    <div class="about-copy"><p class="eyebrow">Votre praticienne</p><h2>Une attention précise, un moment pour vous.</h2><p>En tant que praticienne en drainage lymphatique brésilien, je vous accueille avec écoute et bienveillance pour une séance adaptée à vos attentes et à votre confort.</p><p>Chaque séance commence par un échange afin de comprendre vos besoins, de vous présenter le déroulement du soin et de vérifier qu’il vous convient.</p><div class="signature">Serıfe Turunc</div><a class="btn" href="#contact">PRENDRE CONTACT</a></div>
+  </div>
+</section>
+
+<section class="services" id="prestations">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">Le soin signature</p><h2>Le drainage lymphatique brésilien</h2><p>Une séance de 1 heure à domicile en Île-de-France, au tarif de 80 €. Les gestes sont adaptés à votre confort et à vos attentes.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80" alt="Soin manuel de bien-être" loading="lazy"><div class="inner"><span class="number">01 / SOIN SIGNATURE</span><h3>Drainage lymphatique brésilien</h3><p>Une séance de 1 heure à domicile en Île-de-France, au tarif de 80 €, avec des mouvements rythmés et précis adaptés à votre confort.</p></div></article>
+      <article class="service-card"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=80" alt="Ambiance sereine pour un soin" loading="lazy"><div class="inner"><span class="number">02 / CONFORT</span><h3>Sensation de légèreté</h3><p>Le soin peut contribuer à une sensation temporaire de jambes moins lourdes et à un meilleur confort ressenti chez certaines personnes.</p></div></article>
+      <article class="service-card"><img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=700&q=80" alt="Moment de bien-être personnalisé" loading="lazy"><div class="inner"><span class="number">03 / ACCOMPAGNEMENT</span><h3>Séance personnalisée</h3><p>Un temps d’échange avant le soin pour parler de vos attentes, de vos éventuelles contre-indications et de votre confort.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="infos-pratiques">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">Informations pratiques</p><h2>Votre séance à domicile</h2><p>Je me déplace à votre domicile en Île-de-France pour vous proposer un moment de bien-être dans un cadre familier.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><div class="inner"><span class="number">ZONE</span><h3>Île-de-France</h3><p>Prestation à domicile, selon les disponibilités et la zone de déplacement.</p></div></article>
+      <article class="service-card"><div class="inner"><span class="number">DURÉE</span><h3>1 heure</h3><p>Prévoyez environ une heure pour votre séance.</p></div></article>
+      <article class="service-card"><div class="inner"><span class="number">TARIF</span><h3>80 €</h3><p>Tarif par séance d’une heure. Contactez-moi pour convenir d’un rendez-vous.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="bienfaits">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">Les bienfaits possibles</p><h2>Prendre soin de soi, en douceur.</h2><p>Les effets ressentis varient selon les personnes. Le drainage lymphatique brésilien proposé ici s’inscrit dans une démarche de bien-être et ne remplace pas un suivi médical.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><div class="inner"><span class="number">01 / LÉGÈRETÉ</span><h3>Une sensation de jambes plus légères</h3><p>Certaines personnes apprécient une sensation temporaire de confort et de légèreté après la séance.</p></div></article>
+      <article class="service-card"><div class="inner"><span class="number">02 / DÉTENTE</span><h3>Un moment de relaxation</h3><p>Le temps consacré au soin peut aider à faire une pause, à se détendre et à se recentrer sur ses sensations.</p></div></article>
+      <article class="service-card"><div class="inner"><span class="number">03 / ATTENTION</span><h3>Une approche personnalisée</h3><p>Le déroulement du rendez-vous est adapté à votre confort, à vos attentes et aux précautions nécessaires.</p></div></article>
+    </div>
+    <p class="form-note" style="text-align:center;margin-top:22px">Le drainage esthétique n’est pas un traitement médical et ne garantit ni perte de poids ni réduction durable de la cellulite. En cas de maladie, de grossesse ou de doute, demandez conseil à un professionnel de santé avant toute séance.</p>
+  </div>
+</section>
+
+<div class="quote-band"><div class="mark">“</div><blockquote>Prendre du temps pour soi n'est pas un luxe, c'est une attention que l'on s'accorde.</blockquote><p>UNE PAUSE · UN SOUFFLE · UN MOMENT POUR VOUS</p></div>
+
+<section id="galerie">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">L'atmosphère</p><h2>Un univers de douceur</h2><p>Une ambiance naturelle, apaisante et élégante pour votre moment de bien-être.</p></div>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=900&q=85" alt="Ambiance spa et détente" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&q=85" alt="Intérieur relaxant" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=85" alt="Soin bien-être" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=85" alt="Moment de relaxation" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=700&q=85" alt="Massage dans un cadre serein" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="contact">
+  <div class="container booking-grid">
+    <div class="booking-copy"><p class="eyebrow">Contact & rendez-vous</p><h2>Votre moment commence ici.</h2><p>Une question ou une demande de rendez-vous ? Envoyez-moi un message. Je vous répondrai dès que possible.</p>
+      <div class="contact-line"><div>✉</div><div><b>E-mail</b><span><a href="mailto:koder520777@gmail.com">koder520777@gmail.com</a></span></div></div>
+      <div class="contact-line"><div>☎</div><div><b>Téléphone / WhatsApp</b><span><a href="tel:+33627841701">06 27 84 17 01</a> · <a href="https://wa.me/33627841701" target="_blank" rel="noopener">Écrire sur WhatsApp</a></span></div></div>
+      <div class="contact-line"><div>⌖</div><div><b>Zone de déplacement</b><span>Île-de-France — secteur exact à confirmer</span></div></div>
+    </div>
+    <form class="form-card" id="bookingForm">
+      <h3>Demande de rendez-vous</h3>
+      <label for="nom">Votre nom</label><input id="nom" name="nom" autocomplete="name" placeholder="Nom et prénom" required>
+      <label for="email">Votre e-mail</label><input id="email" name="email" type="email" autocomplete="email" placeholder="vous@exemple.fr" required>
+      <label for="prestation">Prestation souhaitée</label><select id="prestation" name="prestation" required><option value="">Choisir une prestation</option><option>Massage bien-être</option><option>Drainage lymphatique</option><option>Moment personnalisé</option><option>Demande d'information</option></select>
+      <label for="date">Date souhaitée (facultatif)</label><input id="date" name="date" type="date">
+      <label for="message">Votre message</label><textarea id="message" name="message" placeholder="Indiquez vos disponibilités ou votre question." required></textarea>
+      <button class="btn" type="submit">PRÉPARER MON MESSAGE</button>
+      <p class="form-note">Le formulaire prépare un e-mail dans votre application de messagerie. Aucun rendez-vous n'est confirmé automatiquement.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><a class="brand" href="#accueil"><strong>Serıfe Turunc</strong><span>Praticienne en drainage lymphatique brésilien</span></a><p>Praticienne en drainage lymphatique brésilien à domicile en Île-de-France. Séance de 1 heure : 80 €.</p></div>
+      <div><h4>Navigation</h4><p><a href="#apropos">À propos</a></p><p><a href="#prestations">Prestations</a></p><p><a href="#galerie">Galerie</a></p></div>
+      <div><h4>Informations</h4><p><a href="#contact">Contact & rendez-vous</a></p><p>Île-de-France · France</p><p>Mentions légales à compléter avant publication.</p></div>
+    </div>
     <div class="footer-bottom"><span>© <span id="year">2026</span> Serıfe Turunc</span><span>Praticienne en drainage lymphatique brésilien</span></div>
   </div>
 </footer>
